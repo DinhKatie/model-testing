@@ -1,0 +1,477 @@
+,,,,,,,
+Nurse,Age,Political Spectrum,Travel Nurse Experience,Most Important - Top 1,Most Important - Top 2,Least Important - bottom of list,Least Important - 2nd bottom of list
+16,Gen Z,Conservative,Newbie,Pay,Mgmt & leadership,DEI,Patient acuity
+1,Gen Z,Conservative,Newbie Travel Nurse 1 year of experience,Pay,Mgmt & leadership,DEI,Patient acuity
+2,Gen Z,Liberal,Newbie Travel Nurse 1 year of experience,Safety,Pay,DEI,Housing Options
+3,Gen Z,Neutral,Newbie Travel Nurse 1 year of experience,Orientation & Onboarding,Management and Leadership,Pay,Facility Location
+4,Gen Z,Conservative,Newbie Travel Nurse 1 year of experience,Safety & patient ratios,Patient acuity,Management & leadership,Pay
+5,Gen Z,Liberal,Newbie Travel Nurse 1 year of experience,Patient Acuity,Housing Options,DEI,Management & Leadership
+6,Millennial,Neutral,Moderate Travel Nurse 2-3 years travel experience,Facility Location,Housing Options,Safety & patient ratios,Pay
+7,Millennial,Conservative,Veteran Travel Nurse 4+ years of experience,Pay,Mgmt & leadership,Patient acuity,Pay
+8,Millennial,Liberal,Moderate Travel Nurse 2-3 years travel experience,Orientation & onboarding,Pay,Housing Options,DEI
+9,Millennial,Neutral,Veteran Travel Nurse 4+ years of experience,Facility Location,Mgmt & leadership,DEI,Patient acuity
+10,Millennial,Conservative,Veteran Travel Nurse 4+ years of experience,Pay,Mgmt & leadership,Facility Location,DEI
+11,Gen X,Liberal,Newbie Travel Nurse 1 year of experience,Safety & patient ratios ,Mgmt & leadership,Orientation & Onboarding,Housing Options
+12,Gen X,Neutral,Veteran Travel Nurse 4+ years of experience,Mgmt & leadership,Patient acuity,Pay,Housing Options
+13,Gen X,Conservative,Moderate Travel Nurse 2-3 years travel experience,Housing Options,Orientation & Onboarding,Pay,Patient acuity
+14,Gen X,Liberal,Moderate Travel Nurse 2-3 years travel experience,Pay,DEI,Patient acuity,Patient acuity
+15,Gen X,Neutral,Newbie Travel Nurse 1 year of experience,Mgmt & leadership,Safety & patient ratios,Orientation & onboarding,Housing Options
+16,Gen X,Conservative,Moderate Travel Nurse 2-3 years travel experience,Patient acuity,Pay,Orientation & Onboarding,Facility Location
+17,Gen Z,Neutral,Newbie,Safety & Patient Ratios,Pay,DEI,Housing Options
+18,Millennial,Liberal,Veteran,Orientation & Onboarding,Management and Leadership,Housing Options,Facility Location
+19,Gen Z,Neutral,Moderate,Safety & Patient Ratios,Patient acuity,Management & leadership,Pay
+20,Gen X,Conservative,Newbie,Patient acuity,Housing Options,Management & Leadership,DEI
+21,Millennial,Neutral,Veteran,Facility Location,Housing Options,Patient Acuity,DEI
+22,Gen X,Neutral,Veteran,Pay,Mgmt & leadership,Patient acuity,DEI
+23,Gen Z,Liberal,Moderate,Orientation & onboarding,Pay,Housing Options,DEI
+24,Gen X,Neutral,Veteran,Facility Location,Mgmt & leadership,Patient acuity,DEI
+25,Gen X,Conservative,Veteran,Pay,Mgmt & leadership,Facility Location,DEI
+26,Millennial,Liberal,Moderate,Safety & patient ratios ,Pay,Orientation & Onboarding,Housing Options
+27,Gen Z,Neutral,Newbie,Mgmt & leadership,Patient acuity,Pay,Housing Options
+28,Gen X,Conservative,Newbie,Housing Options,Orientation & Onboarding,Pay,Patient acuity
+29,Gen X,Liberal,Moderate,Pay,DEI,Patient acuity,Patient acuity
+30,Millennial,Neutral,Veteran,Mgmt & leadership,Safety & patient ratios,Housing Options,Orientation & onboarding
+31,Gen Z,Neutral,Moderate,Patient acuity,Pay,Orientation & Onboarding,Facility Location
+32,Gen X,Conservative,Veteran,Housing Options,Safety & patient ratios ,Patient acuity,Housing Options
+33,Millennial,Neutral,Moderate,Pay,Orientation & onboarding,Facility Location,DEI
+34,Gen Z,Neutral,Moderate,Mgmt & leadership,Facility Location,DEI,Orientation & Onboarding
+35,Gen X,Conservative,Moderate,Safety & patient ratios ,Safety & patient ratios ,Patient acuity,Patient acuity
+36,Millennial,Liberal,Moderate,DEI,Mgmt & Leadership,Facility Location,Orientation & Onboarding
+37,Gen X,Neutral,Moderate,Safety & patient ratios ,Safety & patient ratios ,Mgmt & leadership,Mgmt & leadership
+38,Millennial,Neutral,Moderate,Safety & patient ratios ,Safety & patient ratios ,Orientation & Onboarding,Facility Location
+39,Gen X,Conservative,Newbie,Pay,Facility Location,DEI,Patient acuity
+40,Gen X,Liberal,Newbie,Patient acuity,Safety & patient ratios ,Facility Location,Orientation & Onboarding
+41,Gen Z,Liberal,Moderate,Safety & patient ratios ,Safety & patient ratios ,Patient acuity,Facility Location
+42,Millennial,Neutral,Newbie,Pay,DEI,Facility Location,Safety & patient ratios 
+43,Gen X,Neutral,Moderate,"Safety & patient ratios , Facility Location","Safety & patient ratios , Facility Location","Patient acuity, Mgmt & leadership","Patient acuity, Mgmt & leadership"
+44,Gen X,Neutral,Moderate,DEI,Pay,"Patient acuity, Facility Location","Patient acuity, Facility Location"
+45,Millennial,Conservative,Moderate,Orientation & onboarding,Patient acuity,Facility Location,DEI
+46,Gen Z,Liberal,Moderate,Safety & patient ratios,Mgmt & leadership,Pay,DEI
+47,Millennial,Neutral,Newbie,Housing Options,Safety & patient ratios ,"Orientation & onboarding, Mgmt & leadership","Orientation & onboarding, Mgmt & leadership"
+48,Millennial,Conservative,Moderate,Safety & patient ratios,Pay,"DEI, Facility Location","DEI, Facility Location"
+49,Gen X,Liberal,Moderate,Pay,Safety & patient ratios ,Housing Options,Orientaton & Onboarding
+50,Gen Z,Neutral,Newbie,Pay,Housing Options,Mgmt & leadership,Facility Location
+77,Gen Z,Conservative,Newbie,Pay,Management & leadership,DEI,Patient Acuity
+78,Millennial,Moderate,Veteran,Safety & Patient Ratios,Housing Options,Orientation & Onboarding,DEI
+79,Gen X,Liberal,Moderate,DEI,Facility Location,Pay,Safety & Patient Ratios
+80,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,Housing Options,DEI
+81,Gen Z,Liberal,Newbie,Safety & Patient Ratios,DEI,Patient Acuity,Facility Location
+82,Millennial,Conservative,Moderate,Housing Options,Management & leadership,DEI,Pay
+83,Gen X,Moderate,Veteran,Facility Location,Orientation & Onboarding,Safety & Patient Ratios,DEI
+84,Gen Z,Moderate,Newbie,DEI,Pay,Management & leadership,Housing Options
+85,Millennial,Liberal,Moderate,Patient Acuity,Safety & Patient Ratios,Facility Location,Orientation & Onboarding
+86,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Patient Acuity
+87,Gen X,Liberal,Newbie,Orientation & Onboarding,DEI,Management & leadership,Safety & Patient Ratios
+88,Gen Z,Moderate,Moderate,Safety & Patient Ratios,Pay,DEI,Management & leadership
+89,Millennial,Conservative,Veteran,Management & leadership,Facility Location,Safety & Patient Ratios,Patient Acuity
+90,Gen X,Liberal,Moderate,DEI,Orientation & Onboarding,Housing Options,Pay
+91,Baby Boomer,Moderate,Newbie,Patient Acuity,Management & leadership,DEI,Safety & Patient Ratios
+92,Gen Z,Conservative,Newbie,Pay,Safety & Patient Ratios,Facility Location,DEI
+93,Millennial,Moderate,Moderate,Housing Options,Orientation & Onboarding,Safety & Patient Ratios,DEI
+94,Gen X,Liberal,Veteran,DEI,Patient Acuity,Pay,Housing Options
+95,Baby Boomer,Conservative,Newbie,Management & leadership,Safety & Patient Ratios,Orientation & Onboarding,DEI
+96,Gen Z,Liberal,Moderate,DEI,Pay,Management & leadership,Facility Location
+97,Millennial,Conservative,Veteran,Pay,DEI,Housing Options,Safety & Patient Ratios
+98,Gen X,Moderate,Newbie,Facility Location,Orientation & Onboarding,Safety & Patient Ratios,Patient Acuity
+99,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Safety & Patient Ratios,Pay
+100,Gen Z,Conservative,Newbie,Patient Acuity,Housing Options,DEI,Facility Location
+101,Millennial,Moderate,Veteran,Safety & Patient Ratios,Orientation & Onboarding,Management & leadership,DEI
+102,Gen X,Conservative,Moderate,Pay,DEI,Facility Location,Safety & Patient Ratios
+103,Baby Boomer,Liberal,Newbie,Management & leadership,Patient Acuity,Housing Options,DEI
+104,Gen Z,Moderate,Veteran,DEI,Safety & Patient Ratios,Pay,Management & leadership
+105,Millennial,Conservative,Newbie,Housing Options,Facility Location,DEI,Pay
+106,Gen X,Liberal,Veteran,DEI,Patient Acuity,Management & leadership,Safety & Patient Ratios
+107,Baby Boomer,Moderate,Moderate,Orientation & Onboarding,DEI,Facility Location,Pay
+108,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+109,Millennial,Moderate,Veteran,Pay,Safety & Patient Ratios,Facility Location,DEI
+110,Gen X,Liberal,Newbie,Patient Acuity,Orientation & Onboarding,Management & leadership,DEI
+111,Baby Boomer,Conservative,Veteran,DEI,Housing Options,Pay,Safety & Patient Ratios
+112,Gen Z,Moderate,Moderate,Pay,Facility Location,Safety & Patient Ratios,DEI
+113,Millennial,Conservative,Newbie,Orientation & Onboarding,Management & leadership,DEI,Safety & Patient Ratios
+114,Gen X,Liberal,Veteran,DEI,Patient Acuity,Facility Location,Management & leadership
+115,Baby Boomer,Moderate,Moderate,Pay,Safety & Patient Ratios,DEI,Housing Options
+116,Gen Z,Conservative,Veteran,Management & leadership,Facility Location,Safety & Patient Ratios,Patient Acuity
+117,Millennial,Liberal,Newbie,Safety & Patient Ratios,DEI,Management & leadership,Pay
+118,Gen X,Moderate,Moderate,Patient Acuity,Housing Options,DEI,Facility Location
+119,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,Housing Options,DEI
+120,Gen Z,Liberal,Newbie,DEI,Safety & Patient Ratios,Patient Acuity,Facility Location
+121,Millennial,Moderate,Veteran,Housing Options,Management & leadership,DEI,Pay
+122,Gen X,Conservative,Newbie,Facility Location,DEI,Safety & Patient Ratios,Patient Acuity
+123,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Housing Options
+124,Gen Z,Moderate,Newbie,Pay,Orientation & Onboarding,DEI,Safety & Patient Ratios
+125,Millennial,Conservative,Veteran,Safety & Patient Ratios,Patient Acuity,DEI,Management & leadership
+126,Gen X,Liberal,Newbie,Facility Location,DEI,Housing Options,Patient Acuity
+127,Baby Boomer,Moderate,Veteran,DEI,Management & leadership,Safety & Patient Ratios,Facility Location
+128,Gen Z,Conservative,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Housing Options
+129,Millennial,Moderate,Veteran,Patient Acuity,Facility Location,Management & leadership,Safety & Patient Ratios
+130,Gen X,Liberal,Newbie,Pay,DEI,Orientation & Onboarding,Facility Location
+131,Baby Boomer,Conservative,Veteran,Safety & Patient Ratios,Management & leadership,Housing Options,Patient Acuity
+132,Gen Z,Moderate,Newbie,Facility Location,DEI,Safety & Patient Ratios,Pay
+133,Millennial,Liberal,Veteran,DEI,Safety & Patient Ratios,Management & leadership,Patient Acuity
+134,Gen X,Conservative,Newbie,Management & leadership,Orientation & Onboarding,DEI,Safety & Patient Ratios
+135,Baby Boomer,Moderate,Veteran,Pay,Housing Options,DEI,Patient Acuity
+136,Gen Z,Liberal,Newbie,DEI,Safety & Patient Ratios,Patient Acuity,Facility Location
+137,Millennial,Conservative,Veteran,Management & leadership,Pay,Housing Options,DEI
+138,Gen X,Moderate,Moderate,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+139,Baby Boomer,Liberal,Newbie,DEI,Management & leadership,Housing Options,Pay
+140,Gen Z,Conservative,Veteran,Pay,Orientation & Onboarding,Facility Location,DEI
+141,Millennial,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,Management & leadership,Housing Options
+142,Gen X,Liberal,Veteran,DEI,Facility Location,Pay,Safety & Patient Ratios
+143,Baby Boomer,Conservative,Newbie,Management & leadership,Housing Options,DEI,Patient Acuity
+144,Gen Z,Moderate,Moderate,Safety & Patient Ratios,Pay,DEI,Management & leadership
+145,Millennial,Liberal,Veteran,Orientation & Onboarding,DEI,Safety & Patient Ratios,Facility Location
+146,Gen X,Conservative,Newbie,Management & leadership,Patient Acuity,Housing Options,DEI
+147,Baby Boomer,Moderate,Veteran,Pay,DEI,Management & leadership,Facility Location
+148,Gen Z,Liberal,Newbie,DEI,Facility Location,Management & leadership,Safety & Patient Ratios
+149,Millennial,Conservative,Moderate,Safety & Patient Ratios,Management & leadership,Facility Location,DEI
+150,Gen X,Moderate,Veteran,Patient Acuity,DEI,Pay,Management & leadership
+151,Baby Boomer,Liberal,Newbie,DEI,Safety & Patient Ratios,Patient Acuity,Facility Location
+152,Gen Z,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+153,Millennial,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Management & leadership
+154,Gen X,Liberal,Veteran,DEI,Facility Location,Pay,Safety & Patient Ratios
+155,Baby Boomer,Conservative,Newbie,Management & leadership,Pay,DEI,Housing Options
+156,Gen Z,Moderate,Moderate,DEI,Management & leadership,Safety & Patient Ratios,Facility Location
+157,Millennial,Conservative,Veteran,Pay,Safety & Patient Ratios,Facility Location,DEI
+158,Gen X,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Facility Location
+159,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Housing Options
+160,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+161,Millennial,Moderate,Moderate,Management & leadership,Pay,Housing Options,DEI
+162,Gen X,Liberal,Veteran,DEI,Patient Acuity,Safety & Patient Ratios,Facility Location
+163,Baby Boomer,Conservative,Newbie,Pay,Management & leadership,DEI,Housing Options
+164,Gen Z,Moderate,Veteran,Safety & Patient Ratios,DEI,Facility Location,Management & leadership
+165,Millennial,Liberal,Newbie,DEI,Safety & Patient Ratios,Patient Acuity,Facility Location
+166,Gen X,Conservative,Moderate,Management & leadership,Housing Options,DEI,Safety & Patient Ratios
+167,Baby Boomer,Moderate,Veteran,Pay,Facility Location,Safety & Patient Ratios,Management & leadership
+168,Gen Z,Liberal,Newbie,DEI,Patient Acuity,Management & leadership,Safety & Patient Ratios
+169,Millennial,Conservative,Veteran,Management & leadership,Pay,DEI,Housing Options
+170,Gen X,Moderate,Moderate,Safety & Patient Ratios,DEI,Pay,Management & leadership
+171,Baby Boomer,Liberal,Newbie,Patient Acuity,DEI,Housing Options,Facility Location
+172,Gen Z,Conservative,Veteran,Pay,Management & leadership,Safety & Patient Ratios,DEI
+173,Millennial,Moderate,Newbie,DEI,Safety & Patient Ratios,Facility Location,Management & leadership
+174,Gen X,Liberal,Veteran,Safety & Patient Ratios,DEI,Pay,Housing Options
+175,Baby Boomer,Conservative,Newbie,Management & leadership,Pay,DEI,Facility Location
+176,Gen Z,Moderate,Moderate,DEI,Safety & Patient Ratios,Patient Acuity,Management & leadership
+177,Millennial,Liberal,Veteran,Pay,Facility Location,DEI,Housing Options
+178,Baby Boomer,Conservative,Veteran,Pay,Safety & Patient Ratios,DEI,Facility Location
+179,Baby Boomer,Moderate,Newbie,Management & leadership,Orientation & Onboarding,DEI,Housing Options
+180,Baby Boomer,Liberal,Moderate,DEI,Facility Location,Pay,Patient Acuity
+181,Baby Boomer,Conservative,Veteran,Patient Acuity,Management & leadership,DEI,Safety & Patient Ratios
+182,Baby Boomer,Moderate,Newbie,Pay,Housing Options,Management & leadership,Facility Location
+183,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+184,Baby Boomer,Conservative,Moderate,Safety & Patient Ratios,Pay,DEI,Facility Location
+185,Baby Boomer,Moderate,Newbie,Management & leadership,Patient Acuity,Safety & Patient Ratios,DEI
+186,Baby Boomer,Liberal,Veteran,Facility Location,Safety & Patient Ratios,Pay,Management & leadership
+187,Baby Boomer,Conservative,Newbie,Pay,Housing Options,DEI,Patient Acuity
+188,Baby Boomer,Moderate,Veteran,Management & leadership,DEI,Safety & Patient Ratios,Facility Location
+189,Baby Boomer,Liberal,Newbie,DEI,Orientation & Onboarding,Housing Options,Pay
+190,Baby Boomer,Conservative,Moderate,Safety & Patient Ratios,Patient Acuity,DEI,Facility Location
+191,Baby Boomer,Moderate,Veteran,Management & leadership,Housing Options,Pay,DEI
+192,Baby Boomer,Liberal,Newbie,DEI,Safety & Patient Ratios,Patient Acuity,Facility Location
+193,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+194,Baby Boomer,Moderate,Newbie,Facility Location,Orientation & Onboarding,DEI,Pay
+195,Baby Boomer,Liberal,Veteran,DEI,Facility Location,Safety & Patient Ratios,Management & leadership
+196,Baby Boomer,Conservative,Moderate,Management & leadership,Pay,Housing Options,DEI
+197,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Facility Location
+198,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+199,Baby Boomer,Conservative,Newbie,Management & leadership,Housing Options,DEI,Facility Location
+200,Baby Boomer,Moderate,Veteran,Pay,Safety & Patient Ratios,DEI,Orientation & Onboarding
+201,Baby Boomer,Liberal,Moderate,DEI,Management & leadership,Pay,Facility Location
+202,Baby Boomer,Conservative,Veteran,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+203,Baby Boomer,Moderate,Newbie,Pay,Orientation & Onboarding,DEI,Housing Options
+204,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Safety & Patient Ratios,Pay
+205,Baby Boomer,Conservative,Newbie,Management & leadership,Pay,DEI,Housing Options
+206,Baby Boomer,Moderate,Veteran,Safety & Patient Ratios,Orientation & Onboarding,Pay,Facility Location
+207,Baby Boomer,Liberal,Moderate,DEI,Safety & Patient Ratios,Management & leadership,Patient Acuity
+208,Baby Boomer,Conservative,Veteran,Pay,Facility Location,DEI,Housing Options
+209,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Pay,DEI,Orientation & Onboarding
+210,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+211,Baby Boomer,Conservative,Moderate,Management & leadership,Patient Acuity,DEI,Facility Location
+212,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,Pay,DEI
+213,Baby Boomer,Liberal,Veteran,DEI,Pay,Housing Options,Safety & Patient Ratios
+214,Baby Boomer,Conservative,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+215,Baby Boomer,Moderate,Veteran,Pay,Orientation & Onboarding,DEI,Housing Options
+216,Baby Boomer,Liberal,Moderate,DEI,Patient Acuity,Management & leadership,Pay
+217,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,DEI,Safety & Patient Ratios
+218,Baby Boomer,Moderate,Newbie,Facility Location,Management & leadership,DEI,Housing Options
+219,Baby Boomer,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Facility Location
+220,Baby Boomer,Conservative,Moderate,Pay,Management & leadership,DEI,Housing Options
+221,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Orientation & Onboarding,DEI,Facility Location
+222,Baby Boomer,Liberal,Veteran,DEI,Facility Location,Management & leadership,Pay
+223,Baby Boomer,Conservative,Newbie,Pay,Safety & Patient Ratios,DEI,Housing Options
+224,Baby Boomer,Moderate,Veteran,Management & leadership,Patient Acuity,Safety & Patient Ratios,DEI
+225,Baby Boomer,Liberal,Moderate,DEI,Management & leadership,Facility Location,Pay
+226,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+227,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+228,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+229,Baby Boomer,Conservative,Newbie,Management & leadership,Patient Acuity,DEI,Facility Location
+230,Baby Boomer,Moderate,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+231,Baby Boomer,Liberal,Moderate,DEI,Facility Location,Pay,Management & leadership
+232,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,DEI,Housing Options
+233,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Facility Location
+234,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+235,Baby Boomer,Conservative,Moderate,Pay,Safety & Patient Ratios,DEI,Housing Options
+236,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+237,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+238,Baby Boomer,Conservative,Veteran,Pay,Safety & Patient Ratios,DEI,Housing Options
+239,Baby Boomer,Moderate,Newbie,Orientation & Onboarding,Facility Location,DEI,Management & leadership
+240,Baby Boomer,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Facility Location
+241,Baby Boomer,Conservative,Moderate,Management & leadership,Pay,DEI,Patient Acuity
+242,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Orientation & Onboarding,DEI,Housing Options
+243,Baby Boomer,Liberal,Veteran,DEI,Facility Location,Management & leadership,Pay
+244,Baby Boomer,Conservative,Newbie,Pay,Safety & Patient Ratios,DEI,Housing Options
+245,Baby Boomer,Moderate,Veteran,Management & leadership,Facility Location,Pay,DEI
+246,Baby Boomer,Liberal,Moderate,DEI,Safety & Patient Ratios,Management & leadership,Patient Acuity
+247,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+248,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Management & leadership
+249,Baby Boomer,Liberal,Veteran,DEI,Pay,Management & leadership,Safety & Patient Ratios
+250,Baby Boomer,Conservative,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+251,Baby Boomer,Moderate,Veteran,Pay,Safety & Patient Ratios,DEI,Orientation & Onboarding
+252,Baby Boomer,Liberal,Moderate,DEI,Management & leadership,Facility Location,Pay
+253,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+254,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+255,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+256,Baby Boomer,Conservative,Newbie,Management & leadership,Patient Acuity,DEI,Facility Location
+257,Baby Boomer,Moderate,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+258,Baby Boomer,Liberal,Moderate,DEI,Facility Location,Pay,Management & leadership
+259,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,DEI,Housing Options
+260,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Facility Location
+261,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+262,Baby Boomer,Conservative,Moderate,Pay,Safety & Patient Ratios,DEI,Housing Options
+263,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+264,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+265,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+266,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+267,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+268,Baby Boomer,Conservative,Newbie,Management & leadership,Patient Acuity,DEI,Facility Location
+269,Baby Boomer,Moderate,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+270,Baby Boomer,Liberal,Moderate,DEI,Facility Location,Pay,Management & leadership
+271,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,DEI,Housing Options
+272,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Facility Location
+273,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+274,Baby Boomer,Conservative,Moderate,Pay,Safety & Patient Ratios,DEI,Housing Options
+275,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+276,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+277,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+278,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+279,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+280,Baby Boomer,Conservative,Newbie,Management & leadership,Patient Acuity,DEI,Facility Location
+281,Baby Boomer,Moderate,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+282,Baby Boomer,Liberal,Moderate,DEI,Facility Location,Pay,Management & leadership
+283,Baby Boomer,Conservative,Veteran,Management & leadership,Pay,DEI,Housing Options
+284,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Facility Location
+285,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+286,Baby Boomer,Conservative,Moderate,Pay,Safety & Patient Ratios,DEI,Housing Options
+287,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+288,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+289,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+290,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+291,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+292,Baby Boomer,Conservative,Newbie,Management & leadership,Patient Acuity,DEI,Facility Location
+293,Baby Boomer,Moderate,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+294,Baby Boomer,Liberal,Moderate,DEI,Facility Location,Pay,Management & leadership
+295,Baby Boomer,Liberal,Veteran,DEI,Facility Location,Management & leadership,Pay
+296,Baby Boomer,Conservative,Veteran,Management & leadership,Patient Acuity,DEI,Facility Location
+297,Baby Boomer,Moderate,Newbie,Pay,Safety & Patient Ratios,DEI,Housing Options
+298,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+299,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+300,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+301,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+302,Baby Boomer,Conservative,Veteran,Pay,Safety & Patient Ratios,DEI,Housing Options
+303,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Orientation & Onboarding,DEI,Facility Location
+304,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Housing Options
+305,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Facility Location
+306,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Housing Options
+307,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Safety & Patient Ratios
+308,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Management & leadership
+309,Baby Boomer,Moderate,Newbie,Management & leadership,Patient Acuity,DEI,Facility Location
+310,Baby Boomer,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Orientation & Onboarding
+311,Baby Boomer,Conservative,Veteran,Pay,Facility Location,DEI,Housing Options
+312,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Facility Location
+313,Baby Boomer,Liberal,Veteran,DEI,Management & leadership,Pay,Safety & Patient Ratios
+314,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+315,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Housing Options
+316,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+317,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Facility Location
+318,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Orientation & Onboarding,DEI,Facility Location
+319,Baby Boomer,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Management & leadership
+320,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+321,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Housing Options
+322,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Management & leadership
+323,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+324,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+325,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+326,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+327,Baby Boomer,Moderate,Newbie,Management & leadership,Orientation & Onboarding,DEI,Facility Location
+328,Baby Boomer,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Management & leadership
+329,Baby Boomer,Conservative,Veteran,Pay,Facility Location,DEI,Housing Options
+330,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+331,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Safety & Patient Ratios
+332,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+333,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Safety & Patient Ratios
+334,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+335,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+336,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+337,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+338,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+339,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Housing Options
+340,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+341,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+342,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Housing Options
+343,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Safety & Patient Ratios
+344,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Facility Location
+345,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Housing Options
+346,Baby Boomer,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Management & leadership
+347,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+348,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+349,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+350,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+351,Baby Boomer,Moderate,Newbie,Management & leadership,Facility Location,DEI,Safety & Patient Ratios
+352,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+353,Baby Boomer,Conservative,Veteran,Pay,Facility Location,DEI,Housing Options
+354,Baby Boomer,Conservative,Veteran,Pay,Facility Location,DEI,Housing Options
+355,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Housing Options
+356,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Facility Location
+357,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+358,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+359,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+360,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+361,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Facility Location
+362,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+363,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+364,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+365,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+366,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+367,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Facility Location
+368,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+369,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+370,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+371,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+372,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+373,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Facility Location
+374,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+375,Baby Boomer,Conservative,Veteran,Pay,Facility Location,DEI,Housing Options
+376,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Facility Location
+377,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+378,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+379,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Facility Location
+380,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+381,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Safety & Patient Ratios
+382,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Housing Options
+383,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+384,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+385,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Facility Location
+386,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+387,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+388,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+389,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+390,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Safety & Patient Ratios
+391,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Facility Location
+392,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Housing Options
+393,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Facility Location
+394,Baby Boomer,Moderate,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+395,Baby Boomer,Liberal,Veteran,DEI,Patient Acuity,Pay,Management & leadership
+396,Baby Boomer,Conservative,Veteran,Pay,Housing Options,DEI,Facility Location
+397,Baby Boomer,Moderate,Newbie,Management & leadership,Safety & Patient Ratios,DEI,Housing Options
+398,Baby Boomer,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Facility Location
+399,Baby Boomer,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+400,Baby Boomer,Moderate,Newbie,Facility Location,Safety & Patient Ratios,DEI,Management & leadership
+401,Gen Z,Conservative,Newbie,Pay,Safety & Patient Ratios,DEI,Housing Options
+402,Gen Z,Moderate,Veteran,Management & leadership,Facility Location,DEI,Patient Acuity
+403,Gen Z,Liberal,Newbie,DEI,Orientation & Onboarding,Pay,Facility Location
+404,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+405,Gen Z,Moderate,Newbie,Patient Acuity,Facility Location,DEI,Management & leadership
+406,Gen Z,Liberal,Newbie,DEI,Safety & Patient Ratios,Pay,Facility Location
+407,Gen Z,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+408,Gen Z,Moderate,Newbie,Facility Location,Orientation & Onboarding,DEI,Pay
+409,Gen Z,Liberal,Moderate,DEI,Patient Acuity,Safety & Patient Ratios,Facility Location
+410,Gen Z,Conservative,Newbie,Pay,Facility Location,DEI,Management & leadership
+411,Gen Z,Moderate,Veteran,Orientation & Onboarding,Patient Acuity,DEI,Pay
+412,Gen Z,Liberal,Newbie,DEI,Management & leadership,Safety & Patient Ratios,Housing Options
+413,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Orientation & Onboarding,DEI,Facility Location
+414,Gen Z,Moderate,Newbie,Patient Acuity,Housing Options,DEI,Management & leadership
+415,Gen Z,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Facility Location
+416,Gen Z,Conservative,Newbie,Pay,Management & leadership,DEI,Housing Options
+417,Gen Z,Moderate,Newbie,Facility Location,Patient Acuity,DEI,Pay
+418,Gen Z,Liberal,Moderate,DEI,Orientation & Onboarding,Safety & Patient Ratios,Management & leadership
+419,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Facility Location,DEI,Orientation & Onboarding
+420,Gen Z,Moderate,Veteran,Patient Acuity,Management & leadership,DEI,Housing Options
+421,Gen Z,Liberal,Newbie,DEI,Pay,Safety & Patient Ratios,Facility Location
+422,Gen Z,Conservative,Newbie,Pay,Facility Location,DEI,Management & leadership
+423,Gen Z,Moderate,Newbie,Orientation & Onboarding,Patient Acuity,DEI,Pay
+424,Gen Z,Liberal,Veteran,DEI,Management & leadership,Safety & Patient Ratios,Housing Options
+425,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Orientation & Onboarding,DEI,Facility Location
+426,Gen Z,Moderate,Newbie,Patient Acuity,Housing Options,DEI,Management & leadership
+427,Gen Z,Liberal,Veteran,DEI,Pay,Safety & Patient Ratios,Facility Location
+428,Gen Z,Conservative,Newbie,Pay,Management & leadership,DEI,Housing Options
+429,Gen Z,Moderate,Veteran,Orientation & Onboarding,Facility Location,DEI,Pay
+430,Gen Z,Liberal,Newbie,DEI,Patient Acuity,Safety & Patient Ratios,Management & leadership
+431,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+432,Gen Z,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Facility Location
+433,Gen Z,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Housing Options
+434,Gen Z,Conservative,Newbie,Pay,Facility Location,DEI,Management & leadership
+435,Gen Z,Moderate,Newbie,Orientation & Onboarding,Patient Acuity,DEI,Housing Options
+436,Gen Z,Liberal,Veteran,DEI,Pay,Safety & Patient Ratios,Facility Location
+437,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+438,Gen Z,Moderate,Newbie,Patient Acuity,Facility Location,DEI,Orientation & Onboarding
+439,Gen Z,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Management & leadership
+440,Gen Z,Conservative,Newbie,Pay,Facility Location,DEI,Housing Options
+441,Gen Z,Moderate,Veteran,Orientation & Onboarding,Patient Acuity,DEI,Safety & Patient Ratios
+442,Gen Z,Liberal,Newbie,DEI,Pay,Management & leadership,Housing Options
+443,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Facility Location
+444,Gen Z,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Housing Options
+445,Gen Z,Liberal,Veteran,DEI,Safety & Patient Ratios,Pay,Management & leadership
+446,Gen Z,Conservative,Newbie,Pay,Management & leadership,DEI,Housing Options
+447,Gen Z,Moderate,Newbie,Facility Location,Patient Acuity,DEI,Safety & Patient Ratios
+448,Gen Z,Liberal,Veteran,DEI,Orientation & Onboarding,Pay,Facility Location
+449,Gen Z,Conservative,Newbie,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+450,Gen Z,Moderate,Newbie,Patient Acuity,Facility Location,DEI,Orientation & Onboarding
+451,Millennial,Conservative,Veteran,Pay,Management & leadership,DEI,Housing Options
+452,Millennial,Moderate,Newbie,Safety & Patient Ratios,Patient Acuity,DEI,Orientation & Onboarding
+453,Millennial,Liberal,Moderate,DEI,Orientation & Onboarding,Facility Location,Pay
+454,Millennial,Conservative,Veteran,Management & leadership,Safety & Patient Ratios,DEI,Housing Options
+455,Millennial,Moderate,Newbie,Patient Acuity,Housing Options,DEI,Facility Location
+456,Millennial,Liberal,Veteran,DEI,Pay,Safety & Patient Ratios,Orientation & Onboarding
+457,Millennial,Conservative,Moderate,Pay,Management & leadership,DEI,Housing Options
+458,Millennial,Moderate,Newbie,Facility Location,Orientation & Onboarding,DEI,Pay
+459,Millennial,Liberal,Veteran,DEI,Patient Acuity,Safety & Patient Ratios,Management & leadership
+460,Millennial,Conservative,Newbie,Pay,Facility Location,DEI,Patient Acuity
+461,Millennial,Moderate,Veteran,Orientation & Onboarding,Management & leadership,DEI,Pay
+462,Millennial,Liberal,Newbie,DEI,Safety & Patient Ratios,Pay,Facility Location
+463,Millennial,Conservative,Veteran,Safety & Patient Ratios,Patient Acuity,DEI,Housing Options
+464,Millennial,Moderate,Moderate,Patient Acuity,Orientation & Onboarding,DEI,Facility Location
+465,Millennial,Liberal,Veteran,DEI,Management & leadership,Safety & Patient Ratios,Housing Options
+466,Millennial,Conservative,Newbie,Pay,Management & leadership,DEI,Orientation & Onboarding
+467,Millennial,Moderate,Veteran,Facility Location,Patient Acuity,DEI,Safety & Patient Ratios
+468,Millennial,Liberal,Newbie,DEI,Orientation & Onboarding,Pay,Facility Location
+469,Millennial,Conservative,Veteran,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+470,Millennial,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Management & leadership
+471,Millennial,Liberal,Veteran,DEI,Safety & Patient Ratios,Facility Location,Pay
+472,Millennial,Conservative,Newbie,Pay,Facility Location,DEI,Orientation & Onboarding
+473,Millennial,Moderate,Veteran,Management & leadership,Patient Acuity,DEI,Housing Options
+474,Millennial,Liberal,Newbie,DEI,Orientation & Onboarding,Safety & Patient Ratios,Pay
+475,Millennial,Conservative,Veteran,Safety & Patient Ratios,Facility Location,DEI,Housing Options
+476,Millennial,Moderate,Moderate,Patient Acuity,Management & leadership,DEI,Orientation & Onboarding
+477,Millennial,Liberal,Newbie,DEI,Pay,Facility Location,Safety & Patient Ratios
+478,Millennial,Conservative,Veteran,Pay,Management & leadership,DEI,Orientation & Onboarding
+479,Millennial,Moderate,Newbie,Facility Location,Patient Acuity,DEI,Safety & Patient Ratios
+480,Millennial,Liberal,Veteran,DEI,Safety & Patient Ratios,Management & leadership,Pay
+481,Millennial,Conservative,Newbie,Pay,Orientation & Onboarding,DEI,Facility Location
+482,Millennial,Moderate,Veteran,Patient Acuity,Management & leadership,DEI,Housing Options
+483,Millennial,Liberal,Newbie,DEI,Safety & Patient Ratios,Pay,Orientation & Onboarding
+484,Millennial,Conservative,Veteran,Safety & Patient Ratios,Facility Location,DEI,Management & leadership
+485,Millennial,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Facility Location
+486,Millennial,Liberal,Veteran,DEI,Pay,Management & leadership,Safety & Patient Ratios
+487,Millennial,Conservative,Moderate,Pay,Safety & Patient Ratios,DEI,Facility Location
+488,Millennial,Moderate,Newbie,Facility Location,Patient Acuity,DEI,Orientation & Onboarding
+489,Millennial,Liberal,Veteran,DEI,Management & leadership,Safety & Patient Ratios,Housing Options
+490,Millennial,Conservative,Newbie,Pay,Management & leadership,DEI,Facility Location
+491,Millennial,Moderate,Veteran,Facility Location,Patient Acuity,DEI,Safety & Patient Ratios
+492,Millennial,Liberal,Newbie,DEI,Orientation & Onboarding,Pay,Facility Location
+493,Millennial,Conservative,Veteran,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+494,Millennial,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Management & leadership
+495,Millennial,Liberal,Veteran,DEI,Pay,Safety & Patient Ratios,Facility Location
+496,Millennial,Conservative,Newbie,Pay,Facility Location,DEI,Orientation & Onboarding
+497,Millennial,Moderate,Veteran,Management & leadership,Patient Acuity,DEI,Housing Options
+498,Millennial,Liberal,Newbie,DEI,Orientation & Onboarding,Safety & Patient Ratios,Pay
+499,Millennial,Conservative,Veteran,Safety & Patient Ratios,Management & leadership,DEI,Housing Options
+500,Millennial,Moderate,Newbie,Patient Acuity,Orientation & Onboarding,DEI,Facility Location
