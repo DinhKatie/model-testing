@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 
-hospital_profiles = pd.read_csv('GroupedHospitalScores (1).csv')
+hospital_profiles = pd.read_csv('GroupedHospitalScores2.csv')
 cheatsheet = pd.read_csv('Ask Margot Sample Data_ Reviews Spreadsheet - Nurse Cheat Sheet.csv')
 
 hospital_profiles = hospital_profiles.set_index('Hospital')
