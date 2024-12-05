@@ -125,46 +125,50 @@ def replace_indices_with_labels(indices):
 preference_df['Closest_Hospitals'] = preference_df['Closest_Hospitals'].apply(replace_indices_with_labels)
 
 
-categories = ['Pay', 'Orientation & Onboarding', 'Mgmt & Leadership', 
-              'Safety & Patient Ratios', 'DEI/LGBTQ+ Friendliness', 
-              'Patient Acuity', 'Housing Options', 'Facility Location']
-
+# Streamlit Interface
 st.title("Hospital Recommendation System")
 
-# Dropdowns for user preference selection
-top_1 = st.selectbox('Most Important - Top 1', categories)
-top_2 = st.selectbox('Most Important - Top 2', [cat for cat in categories if cat != top_1])
-bottom_1 = st.selectbox('Least Important - Bottom 1', [cat for cat in categories if cat not in (top_1, top_2)])
-bottom_2 = st.selectbox('Least Important - Bottom 2', [cat for cat in categories if cat not in (top_1, top_2, bottom_1)])
+st.write("Currently, the sliders represent what ")
 
-# Display the user's selection
-st.write(f"Your preferences are: Top 1: {top_1}, Top 2: {top_2}, Bottom 1: {bottom_1}, Bottom 2: {bottom_2}")
+# Create sliders for user input preferences
+pay = st.slider('Pay', 0.0, 5.0, 3.5)
+orientation_onboarding = st.slider('Orientation & Onboarding', 0.0, 5.0, 3.5)
+mgmt_leadership = st.slider('Mgmt & Leadership', 0.0, 5.0, 3.5)
+safety_patient_ratios = st.slider('Safety & Patient Ratios', 0.0, 5.0, 3.5)
+dei_lgbtq = st.slider('DEI/LGBTQ+ Friendliness', 0.0, 5.0, 3.5)
+patient_acuity = st.slider('Patient Acuity', 0.0, 5.0, 2.5)
+housing_options = st.slider('Housing Options', 0.0, 5.0, 3.5)
+facility_location = st.slider('Facility Location', 0.0, 5.0, 3.5)
 
-# Initialize all categories with a neutral weight (e.g., 2.5 for a 0-5 scale).
-preferences = {category: 2.5 for category in categories}
+# Combine input values into a dictionary
+user_preferences = {
+    'Pay': pay,
+    'Orientation & Onboarding': orientation_onboarding,
+    'Mgmt & Leadership': mgmt_leadership,
+    'Safety & Patient Ratios': safety_patient_ratios,
+    'DEI/LGBTQ+ Friendliness': dei_lgbtq,
+    'Patient Acuity': patient_acuity,
+    'Housing Options': housing_options,
+    'Facility Location': facility_location
+}
 
-# Assign weights based on the user's input
-preferences[top_1] = 4
-preferences[top_2] = 3
-preferences[bottom_1] = 1
-preferences[bottom_2] = 2
+# Normalize user preferences for matching
+user_preferences_scaled = np.array(list(user_preferences.values())).reshape(1, -1)
+user_preferences_scaled = scaler.transform(user_preferences_scaled)
 
-# Convert preferences to a numpy array and scale it
-user_preferences_scaled = scaler.transform(np.array(list(preferences.values())).reshape(1, -1))
-
-    # Use the KNN model to find the nearest hospitals
+# Use the nearest neighbors model to find the closest hospitals
 distances, indices = knn.kneighbors(user_preferences_scaled)
 
-# Map indices to hospital names
+# Get the closest hospitals' names
 closest_hospitals = [index_to_hospital.get(i, "Unknown Hospital") for i in indices[0]]
 
 # Display the closest hospitals
-st.write("Your top 5 hospital matches based on your preferences are:")
-for hospital in closest_hospitals:
-    st.write(hospital)
+st.write("Your top 5 closest hospitals based on your preferences are:")
+st.write(closest_hospitals)
 
-st.write("Details for the recommended hospitals:")
+st.write("Your top 5 closest hospitals based on your preferences are:")
 
+# Loop through each closest hospital and display its ratings
 for hospital in closest_hospitals:
     st.write(f"**{hospital}**")  # Hospital name
     
