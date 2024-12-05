@@ -135,8 +135,11 @@ st.write(ranked_scores.head(10))
 
 score_category = ['Pay', 'Orientation & Onboarding', 'Mgmt & Leadership', 'Safety & Patient Ratios', 'DEI/LGBTQ+ Friendliness', 'Patient Acuity', 'Housing Options', 'Facility Location']
 
+st.write("\n***", "*" * 50, "***\n")
+st.write("\nOverall Hospital Leaderboard\n")
+st.write("\n***", "*" * 50, "***\n")
+
 for category in score_category:
-    st.write("\n", "=" * 50, "\n")
     st.write(f"Top 5 Hospitals in {category}:")
     top_5 = hospital_profiles.nlargest(5, category)
     st.write(top_5.reset_index()[['Hospital', category]])
@@ -144,3 +147,4 @@ for category in score_category:
     st.write(f"\nBottom 5 Hospitals in {category}:")
     bottom_5 = hospital_profiles.nsmallest(5, category)
     st.write(bottom_5.reset_index()[['Hospital', category]])
+    st.write("\n", "=" * 50, "\n")
