@@ -1,0 +1,64 @@
+1. Data Preparation
+Reading and Cleaning Data
+hospital_profiles: This contains data about hospitals, including their ratings across various categories (e.g., Pay, Safety & Patient Ratios). It is read from a CSV file and indexed by the hospital name.
+cheatsheet: Contains nurse preference data, cleaned to standardize the category names and remove unused columns (e.g., Age, Political Spectrum).
+
+Mapping Categories
+A dictionary (category_mapping) standardizes category names to ensure consistent processing across the dataset.
+
+2. Creating Nurse Preferences
+
+Preference DataFrame
+An empty DataFrame (preference_df) is initialized for nurses with all categories set to zero.
+
+Assigning Weights
+A function (assign_weights) assigns weights to categories based on nurses’ preferences:
+Top 1 (most important): Weight = 4
+Top 2: Weight = 3
+Second Bottom (less important): Weight = 2
+Bottom 1 (least important): Weight = 1
+A function (set_preferences) adjusts hospital ratings based on the weights, applying an influence multiplier to modify the hospital averages based on category preferences.
+
+3. Normalization
+
+Both hospital ratings and nurse preferences are normalized using StandardScaler to standardize the data, ensuring compatibility for distance-based calculations.
+
+4. KNN Model
+
+Training the Model
+
+A NearestNeighbors model (from scikit-learn) is trained on the normalized hospital profiles.
+Metric: Euclidean distance
+Neighbors: 5 (the system will return the top 5 closest matches for recommendations).
+
+Mapping Results
+
+A mapping (index_to_hospital) connects KNN result indices to actual hospital names.
+When recommendations are generated, these indices are replaced with hospital names.
+
+5. User Input with Streamlit
+
+Dynamic Dropdowns
+
+The user selects preferences for categories using dropdowns:
+Top 1 and Top 2 (most important): Cannot overlap.
+Bottom 1 and Bottom 2 (least important): Must be unique.
+This ensures that all preferences are distinct and consistent with the model logic.
+
+Displaying Preferences
+
+Preferences are displayed to the user after selection.
+
+Assigning User Weights
+
+Weights are assigned to user preferences (similar to assign_weights) and converted into a normalized numpy array using the scaler.
+
+6. Recommendations
+
+Finding Nearest Hospitals
+The user’s preferences are passed to the KNN model to compute distances to hospitals.
+The top 5 closest hospitals are identified and displayed.
+
+Hospital Details
+For each recommended hospital, detailed ratings for all categories are displayed, showing how the hospital performs in each area.
+
