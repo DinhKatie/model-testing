@@ -1,10 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import NearestNeighbors
 
-hospital_profiles = pd.read_csv('GroupedHospitalScores2.csv')
+hospital_profiles = pd.read_csv('GroupedHospitalScores3.csv')
 cheatsheet = pd.read_csv('Ask Margot Sample Data_ Reviews Spreadsheet - Nurse Cheat Sheet.csv')
 
 hospital_profiles = hospital_profiles.set_index('Hospital')
@@ -34,7 +32,6 @@ category_mapping = {
 
 # Standardize the category columns in 'cheatsheet'
 cheatsheet = cheatsheet.replace(category_mapping)
-cheatsheet.head()
 
 categories = ['Pay','DEI/LGBTQ+ Friendliness', 'Patient Acuity',
               'Orientation & Onboarding', 'Mgmt & Leadership', 'Housing Options',
@@ -54,80 +51,52 @@ def assign_weights(row, preference_df):
     preference_df.at[nurse_id, row['Least Important - bottom of list']] = 1
 
 def set_preferences(preference_df, hospital_profiles):
-    for category in categories:
-        mean_value = hospital_profiles[category].mean()
+    nurse_scores = {}
 
-        for nurse in preference_df.index:
-            weight = preference_df.loc[nurse, category]
+    for nurse in preference_df.index:
+        scores = []  # Store scores for each hospital for this nurse
 
-            # Ensure weight is a scalar value
-            if isinstance(weight, (int, float)):  # Check if weight is a number
-                if weight == 1:
-                    influence = 0.5  # Least influence
-                elif weight == 2:
-                    influence = 0.75
-                elif weight == 3:
-                    influence = 1.2
-                elif weight == 4:
-                    influence = 1.3   # More influence
+        for _, hospital in hospital_profiles.iterrows():
+            total_score = 0
+
+            for category in categories:
+                weight = preference_df.loc[nurse, category]
+
+                # Assign influence based on weight
+                if isinstance(weight, (int, float)):
+                    if weight == 1:
+                        influence = 0.2  # Least influence
+                    elif weight == 2:
+                        influence = 0.3
+                    elif weight == 3:
+                        influence = 1.7
+                    elif weight == 4:
+                        influence = 1.9  # Most influence
+                    else:
+                        influence = 1.0  # Neutral weight
                 else:
-                    influence = 1.0  # Default to neutral if weight is out of range
+                    influence = 1.0
 
-            # Calculate the weighted value
-                weighted_value = mean_value * influence
-                preference_df.at[nurse, category] = weighted_value
-            else:
-                preference_df.at[nurse, category] = mean_value
+                # Add the weighted value to the total score
+                total_score += hospital[category] * influence
+
+            # Append the total score for this hospital
+            scores.append(total_score)
+
+        nurse_scores[nurse] = scores
+
+    # Convert scores dictionary to a new DataFrame
+    scores_df = pd.DataFrame(nurse_scores, index=hospital_profiles.index)
+
+    return scores_df
+
 
 # Apply the weight assignment function
 cheatsheet.apply(lambda row: assign_weights(row, preference_df), axis=1)
-set_preferences(preference_df, hospital_profiles)
+scores_df = set_preferences(preference_df, hospital_profiles)
 
 preference_df.columns = preference_df.columns.to_series().replace(category_mapping)
 preference_df = preference_df.drop(columns=['DEI', 'Management and Leadership'])
-preference_df.head()
-
-# Normalize the data
-scaler = StandardScaler()
-hospital_ratings_scaled = scaler.fit_transform(hospital_profiles)
-nurse_ratings_scaled = scaler.fit_transform(preference_df)
-
-scaled_df = pd.DataFrame(hospital_ratings_scaled, columns=hospital_profiles.columns, index=hospital_profiles.index)
-scaled_nurse_df = pd.DataFrame(nurse_ratings_scaled, columns=preference_df.columns, index=preference_df.index)
-
-scaled_df.rename(columns={
-    'Pay (1-5)': 'Pay',
-    'Orientation & onboarding (1-5)': 'Orientation & Onboarding',
-    'Mgmt & leadership (1-5)': 'Management and Leadership',
-    'Safety & patient ratios (1-5)': 'Safety & Patient Ratios',
-    'DEI/LGBTQ+ friendliness (1-5)': 'DEI',
-    'Patient Acuity (1-5)': 'Patient Acuity',
-    'Housing options (1-5)': 'Housing Options',
-    'Facility Location (1-5)': 'Facility Location'}, inplace=True)
-
-# Create the model
-knn = NearestNeighbors(n_neighbors=5, metric='euclidean')
-knn.fit(scaled_df)
-
-scaled_nurse_df = scaled_nurse_df[scaled_df.columns]
-distances, indices = knn.kneighbors(scaled_nurse_df)
-
-# Store closest hospitals as a list
-preference_df['Closest_Hospitals'] = [list(row) for row in indices]
-
-# Create a mapping from indices to hospital names
-index_to_hospital = hospital_profiles.index.to_series().reset_index(drop=True).to_dict()
-
-def replace_indices_with_labels(indices):
-    return [index_to_hospital.get(i, "Unknown Hospital") for i in indices]
-
-# Apply the function to the Closest_Hospitals column
-preference_df['Closest_Hospitals'] = preference_df['Closest_Hospitals'].apply(replace_indices_with_labels)
-
-
-categories = ['Pay', 'Orientation & Onboarding', 'Mgmt & Leadership', 
-              'Safety & Patient Ratios', 'DEI/LGBTQ+ Friendliness', 
-              'Patient Acuity', 'Housing Options', 'Facility Location']
 
 st.title("Hospital Recommendation System")
 
@@ -149,30 +118,16 @@ preferences[top_2] = 3
 preferences[bottom_1] = 1
 preferences[bottom_2] = 2
 
-# Convert preferences to a numpy array and scale it
-user_preferences_scaled = scaler.transform(np.array(list(preferences.values())).reshape(1, -1))
+# Update preference_df with user's selections
+for category, weight in preferences.items():
+    preference_df[category] = weight
 
-    # Use the KNN model to find the nearest hospitals
-distances, indices = knn.kneighbors(user_preferences_scaled)
+# Calculate the scores based on updated preferences
+scores_df = set_preferences(preference_df, hospital_profiles)
 
-# Map indices to hospital names
-closest_hospitals = [index_to_hospital.get(i, "Unknown Hospital") for i in indices[0]]
+# Rank the hospitals based on the scores (highest score first)
+ranked_scores = scores_df.mean(axis=1).sort_values(ascending=False)
 
-# Display the closest hospitals
-st.write("Your top 5 hospital matches based on your preferences are:")
-for hospital in closest_hospitals:
-    st.write(hospital)
-
-st.write("Details for the recommended hospitals:")
-
-for hospital in closest_hospitals:
-    st.write(f"**{hospital}**")  # Hospital name
-    
-    # Get the actual ratings for each hospital from the original hospital profiles
-    hospital_ratings = hospital_profiles.loc[hospital, categories]
-
-    # Display the ratings for each category
-    for category in categories:
-        st.write(f"{category}: {round(hospital_ratings[category], 2)}")
-    
-    st.write("---")  # Add a separator between hospitals
+# Display the ranked hospitals
+st.write("Top hospitals based on your preferences:")
+st.write(ranked_scores.head(10))
