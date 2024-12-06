@@ -7,6 +7,9 @@ cheatsheet = pd.read_csv('Ask Margot Sample Data_ Reviews Spreadsheet - Nurse Ch
 
 hospital_profiles = hospital_profiles.set_index('Hospital')
 
+rating_hospital_profiles = pd.read_csv('GroupedHospitalScores2.csv')
+rating_hospital_profiles = rating_hospital_profiles.set_index('Hospital')
+
 #Fix column headers being at row 0.
 cheatsheet.columns = cheatsheet.iloc[0]
 cheatsheet = cheatsheet.drop(cheatsheet.index[0]).reset_index(drop=True)
@@ -131,6 +134,16 @@ ranked_scores = scores_df.mean(axis=1).sort_values(ascending=False)
 # Display the ranked hospitals
 st.write("Top hospitals based on your preferences:")
 st.write(ranked_scores.head(10))
+
+for hospital in ranked_scores.index[:10]:  # Top 10 hospitals
+    st.write(f"### {hospital}")  # Display hospital name
+    hospital_ratings = rating_hospital_profiles.loc[hospital]  # Fetch category ratings
+
+    # Print each category and its score
+    for category in categories:
+        st.write(f"- {category}: {round(hospital_ratings[category], 2)}")  # Format category and score
+
+    st.write("---")  # Separator for readability 
 
 
 score_category = ['Pay', 'Orientation & Onboarding', 'Mgmt & Leadership', 'Safety & Patient Ratios', 'DEI/LGBTQ+ Friendliness', 'Patient Acuity', 'Housing Options', 'Facility Location']
